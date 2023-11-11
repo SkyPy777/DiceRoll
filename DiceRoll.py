@@ -8,9 +8,9 @@ while True:
     print(f"{roll_dice} rolled")
 
     roll_again = input("\nRoll again ? (yes/no):")
-    if roll_again == 'yes':
+    if roll_again.lower() == 'yes':
       print("")
-    elif roll_again == 'no':
+    elif roll_again.lower() == 'no':
      print("Goodbye!!")
      break
     else:
