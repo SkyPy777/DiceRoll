@@ -1,7 +1,8 @@
 import random
 
+
+print("\nWelcome to Dice rolling.")
 while True:
-    print("\nWelcome to Dice rolling.")
     roll_dice = random.randint(1,6)
     roll = input("\nEnter to roll :")
     print(f"{roll_dice} rolled")
@@ -13,5 +14,5 @@ while True:
      print("Goodbye!!")
      break
     else:
-      print("Enter valid options.")
-        break
+     print("\nEnter valid options.")
+     break
